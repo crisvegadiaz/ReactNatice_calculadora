@@ -4,12 +4,12 @@
     "slug": "calculadora",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/calculator_icon.png",
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#2f312b"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/calculator_icon.png",
+        "backgroundColor": "#2f312b"
+      },
+      "package": "com.crisdiazvega.calculadora"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/calculator_icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bf8f5f0d-4593-4e68-be55-2cccf5f31004"
+      }
     }
   }
 }
